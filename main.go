@@ -8,5 +8,5 @@ import (
 )
 
 func main() {
-	fmt.Println(color.MagentaString(greeting.Get()))
+	fmt.Println(color.HiYellowString(greeting.Get()))
 }
