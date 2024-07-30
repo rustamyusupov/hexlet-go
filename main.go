@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
+	"go-hello/greeting"
 
-	"./greeting"
+	"github.com/fatih/color"
 )
 
 func main() {
-	fmt.Println(greeting.Get())
+	fmt.Println(color.MagentaString(greeting.Get()))
 }
